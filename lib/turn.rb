@@ -33,8 +33,6 @@
 def turn(board)
   puts "Please enter 1-9:"
     if valid_move? == true
-
     else loop do turn
-end
 end
 end
