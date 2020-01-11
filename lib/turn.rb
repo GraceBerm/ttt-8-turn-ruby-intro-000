@@ -6,8 +6,6 @@
       puts " #{board[6]} | #{board[7]} | #{board[8]} "
     end
 
-    index = gets.strip
-
     def input_to_index(index)
       index.to_i - 1
     end
@@ -32,6 +30,7 @@
 
 def turn(board)
   puts "Please enter 1-9:"
+      index = gets.strip
     if valid_move? == true
     else loop do turn
 end
