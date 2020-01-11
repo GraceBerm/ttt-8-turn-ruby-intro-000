@@ -31,7 +31,6 @@ def turn(board)
     if valid_move? == true
       def move(board, index, value = "X")
         board[index] = value
-      end
     else loop do turn
 end
 end
