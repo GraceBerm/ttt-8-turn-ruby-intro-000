@@ -1,6 +1,3 @@
-def turn(board)
-  puts "Please enter 1-9:"
-
     def display_board(board)
       puts " #{board[0]} | #{board[1]} | #{board[2]} "
       puts "-----------"
@@ -29,6 +26,7 @@ def turn(board)
       end
     end
 
+def turn(board)
     if valid_move? == true
       def move(board, index, value = "X")
         board[index] = value
