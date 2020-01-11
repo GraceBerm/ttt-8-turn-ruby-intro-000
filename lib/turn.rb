@@ -39,10 +39,4 @@ end
 end
 
 
-  loop do
-    turn
-  if valid_move? == true
-    break
-end
-end
-end
+
