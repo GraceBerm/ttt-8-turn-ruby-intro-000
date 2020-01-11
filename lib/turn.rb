@@ -27,6 +27,7 @@
     end
 
 def turn(board)
+  puts "Please enter 1-9:"
     if valid_move? == true
       def move(board, index, value = "X")
         board[index] = value
